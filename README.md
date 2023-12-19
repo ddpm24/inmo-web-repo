@@ -1,4 +1,5 @@
 # Proyecto colaborativo de sitio web inmobiliario
+## ¡ Bienvenidos al proyecto!
 
 ### Clonar el repositorio:
 
