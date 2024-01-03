@@ -1,0 +1,71 @@
+/* Estilos para transición suave al hacer hover en un botón */
+.button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos para animación de desplazamiento */
+@keyframes moveRight {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(100px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.animated-element {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #27ae60;
+    animation: moveRight 2s ease infinite;
+}
+
+/* Estilos para animación de fade-in */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-in-element {
+    margin-top: 20px;
+    opacity: 0;
+    animation: fadeIn 5s ease forwards;
+}
+
+/* Estilos para animación de rotación */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.rotate-element {
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #e74c3c;
+    animation: rotate 4s linear infinite;
+}
